@@ -1,0 +1,61 @@
+name: mylinks
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+
+  cupertino_icons: ^1.0.2
+  flutter_svg: ^2.0.7
+  url_launcher: ^6.1.12
+  flutter_launcher_icons: ^0.13.1
+  flutter_bloc: ^8.1.3
+  dartz: ^0.10.1
+  
+
+flutter_launcher_icons:
+  web:
+    generate: true
+    image_path: "assets/images/logo.png"
+   
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+
+ 
+  uses-material-design: true
+
+ 
+  assets:
+    - assets/images/perfil-instagram.png
+    - assets/images/logo.png
+    - assets/images/background.jpg
+    - assets/icons/email.svg
+    - assets/icons/github.svg
+    - assets/icons/instagram.svg
+    - assets/icons/linkedin.svg
+    - assets/icons/medium.svg
+    
+
+ 
+  fonts:
+    - family: LTWavw
+      fonts:
+        - asset: assets/fonts/LTWave-Bold.ttf
+ 
